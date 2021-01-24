@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="libscript.js"></script>
+    <link rel="stylesheet" href="libstyle.css" />
+    <title>Vanilla Component</title>
+</head>
+<body>
+    <header>Noodles Number 212</header>
+    <main>
+     <div class="form-data">
+    <form id="wordPlay">
+        <label for="noun">Noun:</label>
+        <input id="noun" placeholder="noun" value="noun"/>
+        <label for="verb">Verb:</label>
+        <input id="verb" placeholder="verb" value="verb" />
+        <label for="pronoun">Pronoun:</label>
+        <input id="pronoun" placeholder="pronoun" value="pronoun" />
+        <label for="adjective">Adjective:</label>
+        <input id="adjective" placeholder="adjective" value="adjective"/>
+        <label for="adverb">Adverb:</label>
+        <input id="adverb" placeholder="adverb" value="adverb"/>
+        <label for="properNoun">Proper Noun:</label>
+        <input id="properNoun" placeholder="proper noun" value="proper noun" />
+        
+    </form>
+    <button onclick="component.onSubmit('wordPlay')">Submit</button>
+    </div>
+    
+    <div class="story-box">
+        <h2>Result</h2>
+        <article>
+            <p id="story"></p>
+        </article>
+
+    </div>
+    </main>
+    <footer>
+        <h3>&#169; Nellie Tobey January: 2021</h3>
+        <a href="https://github.com/nelliesnoodles/injector-vanilla-js" target="_blank">Github repo</a>
+    </footer>
+</body>
+</html>
